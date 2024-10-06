@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/squeak/static/css/main.f855e6bc.css",
-    "main.js": "/squeak/static/js/main.d5b41bb0.js",
+    "main.js": "/squeak/static/js/main.a21d9dba.js",
     "static/js/453.1f37346b.chunk.js": "/squeak/static/js/453.1f37346b.chunk.js",
     "index.html": "/squeak/index.html",
     "main.f855e6bc.css.map": "/squeak/static/css/main.f855e6bc.css.map",
-    "main.d5b41bb0.js.map": "/squeak/static/js/main.d5b41bb0.js.map",
+    "main.a21d9dba.js.map": "/squeak/static/js/main.a21d9dba.js.map",
     "453.1f37346b.chunk.js.map": "/squeak/static/js/453.1f37346b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.d5b41bb0.js"
+    "static/js/main.a21d9dba.js"
   ]
 }
