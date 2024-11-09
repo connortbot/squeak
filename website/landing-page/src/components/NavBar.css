@@ -1,0 +1,133 @@
+/* Navbar.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400&display=swap');
+
+/* Navbar styling */
+.navbar {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-family: 'Noto Serif', serif;
+}
+
+/* Logo styling */
+.navbar-logo {
+  margin-left: 5em;
+  height: 2.5em;
+  transform-origin: left center;
+  margin-right: 2em;
+}
+
+/* Links styling */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.2em;
+  color: #3A3A3A; /* Default color for non-active links */
+}
+
+/* Individual link styling */
+.nav-links a {
+  color: #3A3A3A; /* Lighter grey for inactive links */
+  text-decoration: none;
+  transition: color 0.3s;
+  margin-left: 3em;
+}
+
+.nav-links a:hover {
+  color: #1A1A1A;
+}
+
+/* Active link styling */
+.nav-links .active-link {
+  color: #1A1A1A; /* Darker color for active link */
+  font-weight: bold; /* Optional: Bold the active link */
+}
+
+/* Button styling */
+.join-waitlist-button {
+  background-color: #2C2C2C;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-right: 3em;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.join-waitlist-button:hover {
+  background-color: #5a5959;
+}
+/* Navbar.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400&display=swap');
+
+/* Navbar styling */
+.navbar {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-family: 'Noto Serif', serif;
+}
+
+/* Logo styling */
+.navbar-logo {
+  margin-left: 5em;
+  height: 2.5em;
+  transform-origin: left center;
+}
+
+/* Links styling */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1em;
+  color: #3A3A3A; /* Default color for non-active links */
+}
+
+/* Individual link styling */
+.nav-links a {
+  color: #3A3A3A; /* Lighter grey for inactive links */
+  text-decoration: none;
+  transition: color 0.3s;
+  margin-left: 3em;
+}
+
+.nav-links a:hover {
+  color: #1A1A1A;
+}
+
+/* Active link styling */
+.nav-links .active-link {
+  color: #1A1A1A; /* Darker color for active link */
+  font-weight: semi-bold; /* Optional: Bold the active link */
+}
+
+/* Button styling */
+.join-waitlist-button {
+  background-color: #2C2C2C;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: 'Noto Serif', serif;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: 3em;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.join-waitlist-button:hover {
+  background-color: #5a5959;
+}
