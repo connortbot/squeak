@@ -1,0 +1,65 @@
+/* Container styling */
+.translation-card {
+    background-color: #434A3F; /* Updated background color */
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 34px;
+    max-width: 1000px; /* Adjusted width if needed */
+    margin: 0 auto;
+    font-family: 'Noto Serif', serif; /* Use Noto Serif font */
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Flag styling */
+.translation-flag {
+    width: 40px;
+    margin-right: 15px;
+}
+
+/* Right column containing text */
+.translation-text {
+    flex: 1;
+    padding-right: 55px;
+}
+
+/* Main word styling */
+.translation-word {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Translated word directly below the main word */
+.translation-word-translated {
+    font-size: 1.75em; /* Same size as the main word */
+    color: #C2C7B5; /* Similar color to the background, slightly lighter */
+    margin-top: 4px;
+}
+
+/* Divider line under the translated word */
+.translation-divider {
+    border: none;
+    border-top: 2px solid #ffffff;
+    margin: 10px 0;
+}
+
+/* Section titles (Original and Translated) */
+.translation-section-title {
+    font-size: 1.75em;
+    font-weight: 400; /* Semi-bold */
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Highlighted word styling */
+.highlighted-word {
+    text-decoration: underline;
+    color: yellow;
+}
+
+/* Sentence text styling */
+.translation-sentence {
+    font-size: 1.2em; 
+    font-weight: 200; 
+    line-height: 1.6; /* line height for readability */
+}
