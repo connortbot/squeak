@@ -1,0 +1,31 @@
+/* Button styling */
+.next-previous-button {
+    background-color: #2C2C2C; /* Background color */
+    color: #FFFFFF; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px; /* Rounded corners */
+    font-family: 'Noto Serif', serif; /* Serif font */
+    font-size: 1.5em; /* Font size */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Add padding between text and icon */
+.button-icon {
+    width: 1em; /* Adjust as necessary */
+    height: 1em;
+    margin-left: 8px;
+}
+
+.next-previous-button.previous .button-icon {
+    margin-right: 8px;
+    margin-left: 0;
+}
+
+/* Hover effect */
+.next-previous-button:hover {
+    background-color: #3A3A3A;
+}

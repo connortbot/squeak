@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/NavBar.js'
 import TranslationCard from './components/TranslationCard.js';
+import NextPreviousButton from './components/NextPreviousButton.js';
 
 const StyledBox = styled.div`
 	width: 80%;
@@ -215,6 +216,10 @@ function App() {
 		<Navbar></Navbar>
 		<div>
             <TranslationCard data={translationData} />
+        </div>
+		<div>
+            <NextPreviousButton direction="previous" />
+            <NextPreviousButton direction="next" />
         </div>
 
     	<StyledBox>
