@@ -3,7 +3,8 @@ import './App.css';
 import { generateDefinition } from './defns';
 import { useState } from 'react';
 import styled from 'styled-components';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/navbar.js'
 
 const StyledBox = styled.div`
 	width: 80%;
@@ -195,6 +196,9 @@ function App() {
 
 
 	return (
+		<>
+		<Navbar></Navbar>
+
     	<StyledBox>
 			<Title>Squeak</Title>
 			<Subtitle>Comprehensive Input Made Easy!</Subtitle>
@@ -247,6 +251,7 @@ function App() {
 				</Tooltip>
 			)}
 		</StyledBox>
+		</>
 	);
 }
 
