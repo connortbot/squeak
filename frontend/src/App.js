@@ -217,10 +217,6 @@ function App() {
 		<div>
             <TranslationCard data={translationData} />
         </div>
-		<div>
-            <NextPreviousButton direction="previous" />
-            <NextPreviousButton direction="next" />
-        </div>
 
     	<StyledBox>
 			<Title>Squeak</Title>
@@ -274,7 +270,12 @@ function App() {
 				</Tooltip>
 			)}
 		</StyledBox>
+		<div>
+            <NextPreviousButton direction="previous" />
+            <NextPreviousButton direction="next" />
+        </div>
 		</>
+		
 	);
 }
 
