@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Squeak.png'
+import logo from '../assets/Squeak.png'
 
 const Navbar = () => {
   return (

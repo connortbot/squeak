@@ -4,7 +4,8 @@ import { generateDefinition } from './defns';
 import { useState } from 'react';
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/navbar.js'
+import Navbar from './components/NavBar.js'
+import TranslationCard from './components/TranslationCard.js';
 
 const StyledBox = styled.div`
 	width: 80%;
@@ -145,6 +146,20 @@ const Tooltip = styled.div`
 	z-index: 1000;
 `;
 
+
+// FOR TESTING USE PLEASE DELETE LATER------------------------------------------------------------------------
+
+const translationData = {
+	"word": "histórico",
+	"wordTranslated": "historical",
+	"originalSentence": "En un histórico regreso político, Donald Trump aseguró la presidencia en las elecciones de 2024, derrotando a la Vicepresidenta Kamala Harris.",
+	"translatedSentence": "In a historical political comeback, Donald Trump secured the presidency in the 2024 election, defeating Vice President Kamala Harris.",
+	"languageCode": "MX"
+};
+
+// FOR TESTING USE PLEASE DELETE LATER------------------------------------------------------------------------
+
+
 function App() {
 	const [googleApiKey, setGoogleApiKey] = useState('');
 	const [language, setLanguage] = useState('');
@@ -198,6 +213,9 @@ function App() {
 	return (
 		<>
 		<Navbar></Navbar>
+		<div>
+            <TranslationCard data={translationData} />
+        </div>
 
     	<StyledBox>
 			<Title>Squeak</Title>
