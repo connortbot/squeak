@@ -1,0 +1,48 @@
+/* ArticleShowcase.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400&display=swap');
+
+.article-showcase {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  padding-top: 3rem;
+  font-family: 'Noto Serif', serif;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.article-image-container {
+  flex: 2;
+  padding-right: 2rem;
+}
+
+.article-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-text {
+  flex: 1;
+  color: #3a3a3a;
+}
+
+.article-tagline {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.article-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c2c2c;
+  margin-bottom: 1rem;
+}
+
+.article-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
