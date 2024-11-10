@@ -1,12 +1,16 @@
 import './App.css';
 // import { generateStory } from './cohere';
 import { generateDefinition } from './defns';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/NavBar.js'
 import TranslationCard from './components/TranslationCard.js';
 import NextPreviousButton from './components/NextPreviousButton.js';
+import ArticleComponent from './components/ArticleComponent.js';
+
+import articleData from './assets/B1_politics_example.json';
+
 
 const StyledBox = styled.div`
 	width: 80%;
@@ -210,13 +214,35 @@ function App() {
 		setTooltip({ visible: false, word: '', top: 0, left: 0, definition: '' });
 	};
 
+	const [article, setArticle] = useState(null);
+
+    useEffect(() => {
+        // Directly use the imported JSON data
+        const articleInfo = {
+            title: "La France s'apprête à voter",
+            text: articleData.text,
+            currentLevel: articleData.currentLevel,
+            documents: articleData.documents
+        };
+        setArticle(articleInfo);
+    }, []);
 
 	return (
 		<>
 		<Navbar></Navbar>
+		
+
+		<div>
+            {article ? (
+                <ArticleComponent article={article} />
+            ) : (
+                <p>Loading article...</p>
+            )}
+        </div>
 		<div>
             <TranslationCard data={translationData} />
         </div>
+		
 
     	<StyledBox>
 			<Title>Squeak</Title>
@@ -270,10 +296,6 @@ function App() {
 				</Tooltip>
 			)}
 		</StyledBox>
-		<div>
-            <NextPreviousButton direction="previous" />
-            <NextPreviousButton direction="next" />
-        </div>
 		</>
 		
 	);
