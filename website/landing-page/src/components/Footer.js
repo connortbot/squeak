@@ -15,12 +15,10 @@ const Footer = () => {
           <a href="#home">Home</a>
           <a href="#about-us">About Us</a>
           <a href="#contact-us">Contact Us</a>
-          <a href="#features">Features</a>
         </div>
         
         <div className="footer-social">
           <h4>Follow Us</h4>
-          <a href="https://facebook.com">Facebook</a>
           <a href="https://twitter.com">Twitter</a>
           <a href="https://instagram.com">Instagram</a>
           <a href="https://linkedin.com">LinkedIn</a>
