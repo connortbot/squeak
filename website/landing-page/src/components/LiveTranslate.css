@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+.live-translate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    color: #434A3F;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.instruction {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #434A3F;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sentence {
+    display: inline;
+    color: #434A3F;
+}
+
+.translatable-word {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-weight: 400;
+    transition: opacity 0.3s ease;
+    margin-right: 0.25rem;
+    
+}
+
+.translatable-word.translated {
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    color: #509b25;
+}
