@@ -10,9 +10,9 @@ const ArticleShowcase = () => {
       </div>
       <div className="article-text">
         <p className="article-tagline">📚 Discover Relevant Content</p>
-        <h2 className="article-title">Get Articles Tailored to Your Reading Level</h2>
+        <h2 className="article-title">Get Text Tailored to Your Reading Level</h2>
         <p className="article-description">
-          Squeak provides you with current articles at your reading level, sourced from reliable publishers, to help you learn languages through meaningful and relevant content.
+          Squeak provides you with stories and articles at your reading level, to help you learn languages through meaningful and relevant content.
         </p>
       </div>
     </section>
