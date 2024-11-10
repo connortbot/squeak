@@ -1,0 +1,109 @@
+.articleContainer {
+    font-family: 'Noto Serif', serif;
+    margin: auto;
+    padding: 3em;
+    padding-left: 10em;
+    padding-right: 10em;
+    background-color: #f0f0f0;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #333;
+}
+
+.sourceContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.sourcesLabel {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.sourceLink {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sourceImage {
+    width: 30px;
+    height: 30px;
+}
+
+.contentContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.actionButtons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding-top: 8em;
+    padding-bottom: 6em;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.textContainer {
+    flex: 3;
+    padding: 1em;
+    overflow: hidden;
+    font-size: 1.3em;
+
+}
+
+.boldText {
+    font-weight: bold;
+    line-height: 2em;
+}
+
+.textLine {
+    margin: 0;
+}
+
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 6em;
+}
+
+.currentLevel {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #444;
+    text-align: right;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.currentLevel {
+    font-size: 1.2em;
+    color: #444;
+    text-align: center;
+}
