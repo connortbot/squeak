@@ -1,6 +1,5 @@
 import React from 'react';
 import './HeroSection.css';
-import trasnlationDemo from '../assets/image.png';
 
 const HeroSection = () => {
   return (
@@ -18,11 +17,6 @@ const HeroSection = () => {
           <button className="signup-button">Join the Waitlist </button>
         </div>
       </div>
-
-      <a className="translation-demo" >
-        <img src={trasnlationDemo} alt="Translation Demo" className="translation-demo" />
-      </a>
-
 
       {/* Background Glow */}
       <div className="background-glow"></div>
