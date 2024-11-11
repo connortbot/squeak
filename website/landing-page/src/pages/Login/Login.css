@@ -1,0 +1,66 @@
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400&display=swap');
+
+/* Apply font to the entire page */
+* {
+  font-family: 'Noto Serif', serif;
+}
+
+/* Center the page */
+.login-page {
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.tab-buttons .btn {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #f0f0f0;
+  font-weight: 500;
+  color: #333;
+  border-radius: 0;
+}
+
+.tab-buttons .btn.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.form-group input {
+  font-size: 1rem;
+  padding: 0.75rem;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.footer-links {
+  font-size: 0.875rem;
+}
+
+.footer-links .link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-links .link:hover {
+  text-decoration: underline;
+}
