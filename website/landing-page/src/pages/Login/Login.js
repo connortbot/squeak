@@ -67,11 +67,13 @@ function LoginPage() {
 
         <div className="text-center mt-3">
           <p>Already have an account? <span className="link">Login</span></p>
-          <button className="btn btn-outline-secondary w-100 d-flex align-items-center justify-content-center">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" alt="Google icon" className="google-icon" />
-            Signup with Google
-          </button>
         </div>
+
+
+        <button class="google-btn">
+        <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google Logo"></img>
+            <span>Continue with Google</span>
+        </button>
 
         <div className="footer-links mt-3">
           <a href="#" className="link">Terms of use</a> | <a href="#" className="link">Privacy Policy</a>
