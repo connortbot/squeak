@@ -8,22 +8,30 @@
 
 /* Center the page */
 .login-page {
-  height: 100vh;
-  background-color: #f8f9fa;
-}
-
-.login-container {
-  width: 100%;
-  max-width: 400px;
-  padding: 2rem;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    margin: 0;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
 
 .logo {
-  width: 80px;
+  width: 100px;
   margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tab-buttons .btn {
@@ -40,6 +48,15 @@
   background-color: #007bff;
   color: white;
 }
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #F2F4F5;
+  }
+  .card-body {
+    padding: 2rem;
+  }
 
 .form-group input {
   font-size: 1rem;

@@ -43,19 +43,25 @@ function LoginPage() {
       </div>
 
         {activeTab === 'signup' && (
-          <form className="form-group">
-            <input type="text" placeholder="Enter Your Username" className="form-control mb-3" />
-            <input type="email" placeholder="Enter Your Email" className="form-control mb-3" />
-            <input type="password" placeholder="Enter Your Password" className="form-control mb-3" />
-            <button type="submit" className="btn btn-primary w-100">Sign Up</button>
-          </form>
-        )}
+            <div className="card">
+                <div className="card-body">
+                <form className="form-group">
+                    <input type="text" placeholder="Enter Your Username" className="form-control mb-3" />
+                    <input type="email" placeholder="Enter Your Email" className="form-control mb-3" />
+                    <input type="password" placeholder="Enter Your Password" className="form-control mb-3" />
+                    <div className="mt-3">
+                    <button type="submit" className="btn btn-primary w-100">Sign Up</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+            )}
 
         {activeTab === 'login' && (
           <form className="form-group">
             <input type="email" placeholder="Enter Your Email" className="form-control mb-3" />
             <input type="password" placeholder="Enter Your Password" className="form-control mb-3" />
-            <button type="submit" className="btn btn-primary w-100">Login</button>
+            <div><button type="submit" className="btn btn-primary w-100">Login</button> </div>
           </form>
         )}
 
