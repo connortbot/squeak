@@ -49,7 +49,7 @@ const LiveTranslate = () => {
         if (allTranslated) {
             setTimeout(() => {
                 revertToSpanish();
-            }, 3000);
+            }, 2000);
         }
     };
 
